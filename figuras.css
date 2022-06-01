@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    background-color: #EFE0DB;
+}
+
 .header {
     width: 100%;
     height: 100px;
@@ -5,6 +10,7 @@
     justify-content: center;
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 .header img {
@@ -19,7 +25,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: aquamarine;
     font-family: Helvetica;
 }
 
@@ -27,4 +32,89 @@
     font-weight: bold;
     font-size: 20px;
 
+}
+
+.container_fig{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 25%;
+    height: 500px;
+    background: #D9BDD9;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.item img{
+    width: 30%;
+}
+
+.item :first-child{
+    align-self: center;
+}
+
+.item button{
+    display: flex;
+    margin: 5px;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    top: 10px;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.input
+{
+border: 1px solid #DBE1EB;
+font-size: 18px;
+font-family: Arial, Verdana;
+padding-left: 7px;
+padding-right: 7px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+-o-border-radius: 4px;
+background: #FFFFFF;
+background: linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+color: #2E3133;
+}
+
+.input:focus
+{
+color: #2E3133;
+border-color: #FBFFAD;
+}
+
+.label {
+    font-size: 20px;
 }
